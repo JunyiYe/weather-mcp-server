@@ -1,0 +1,10 @@
+[project]
+name = "weather-mcp-server"
+version = "0.1.0"
+description = "A modular weather API server using FastMCP and httpx to provide forecasts and alerts from the NWS."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.9.0",
+]
